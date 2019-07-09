@@ -36,6 +36,9 @@ ul li a{
 	margin:5px;
 	
 }
+h2{
+	color:white;
+}
 @media (min-width:1201px){
 	.reseaux i{
 		font-size:20px;
@@ -45,6 +48,10 @@ ul li a{
 		font-size:1em;
 		height:25px;
 	}
+	
+	
+	
+	
 }
 
 /* ==============================================================

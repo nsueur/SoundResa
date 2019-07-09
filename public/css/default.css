@@ -24,11 +24,28 @@ footer{
 	bottom:0px;
 	
 }
-ul li{
-	color:white;
+li{
+	height:50px;
+	font-size:2em;
+}
+ul li a{
+	color:red;
 }
 .reseaux i{
 	color:red;
+	font-size:50px;
+	margin:5px;
+	
+}
+@media (min-width:1201px){
+	.reseaux i{
+		font-size:20px;
+	}
+	
+	li{
+		font-size:1em;
+		height:25px;
+	}
 }
 
 /* ==============================================================

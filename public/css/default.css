@@ -1,0 +1,31 @@
+/* ==============================================================
+                GENERAL
+============================================================== */
+
+.price{
+    font-weight: bold;
+    color: rgb(0, 21, 143);
+    text-align: right;
+}
+
+/* ==============================================================
+                GRID TICKETS COMMAND
+============================================================== */
+@media (min-width: 1200px){
+    .grid-tickets-command{
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 1199.98px){
+    .grid-tickets-command{
+        max-width: 65%;
+    }
+}
+
+@media (mmin-width: 992px){
+    .grid-tickets-command{
+        max-width: 75%;
+    }
+}
+

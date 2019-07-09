@@ -10,7 +10,6 @@ body, html { height: 100%; }
     text-align: right;
 }
 
-/*****************************Footer***************************/
 
 footer{
 	padding: 5rem 0;
@@ -72,15 +71,9 @@ header {
     }
 }
 
-@media (max-width: 1199.98px){
+@media (min-width: 992px){
     .grid-tickets-command{
         max-width: 65%;
-    }
-}
-
-@media (mmin-width: 992px){
-    .grid-tickets-command{
-        max-width: 75%;
     }
 }
 

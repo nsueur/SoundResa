@@ -12,6 +12,25 @@ body, html { height: 100%; }
 
 /*****************************Footer***************************/
 
+footer{
+	padding: 5rem 0;
+	background-color:black;
+	position:relative;
+	width:100%;
+}
+.Mention{
+	color:white;
+	position:absolute;
+	bottom:0px;
+	
+}
+ul li{
+	color:white;
+}
+.reseaux i{
+	color:red;
+}
+
 /* ==============================================================
                 HEADER
 ============================================================== */

@@ -11,6 +11,23 @@ body, html { height: 100%; }
 }
 
 
+/* ==============================================================
+                HEADER
+============================================================== */
+
+header {
+    min-height: 50vh;
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ==============================================================
+                FOOTER
+============================================================== */
+
 footer{
 	padding: 5rem 0;
 	background-color:black;
@@ -28,40 +45,41 @@ li{
 	font-size:2em;
 }
 ul li a{
-	color:red;
+	color:#ff3300;
 }
 .reseaux i{
-	color:red;
+	color:#ff3300;
 	font-size:50px;
 	margin:5px;
 	
 }
+h2{
+	color:white;
+}
+.paiement i{
+	color:white;
+	padding:5px;
+}
+.paiement{
+	width:70px;
+}
+.paiement p{
+	color:#ff3300;
+}
 @media (min-width:1201px){
 	.reseaux i{
-		font-size:20px;
+		font-size:30px;
 	}
 	
 	li{
 		font-size:1em;
 		height:25px;
-	}
+		text-align:left;
+		margin-left:110px;
+
+	}	
+	
 }
-
-/* ==============================================================
-                HEADER
-============================================================== */
-
-header {
-    min-height: 50vh;
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 /* ==============================================================
                 GRID TICKETS COMMAND
 ============================================================== */

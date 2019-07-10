@@ -58,9 +58,9 @@ h2{
                 HEADER
 ============================================================== */
 
-header {
+header#accueil {
     min-height: 50vh;
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    background-image: url("../img/accueil/headermobil.jpg");
 
     /* Center and scale the image nicely */
     background-position: center;

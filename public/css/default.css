@@ -42,7 +42,7 @@ footer{
 	bottom:0px;
 	
 }
-li{
+.list-unstyled li{
 	height:50px;
 	font-size:2em;
 }

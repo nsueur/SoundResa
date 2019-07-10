@@ -105,3 +105,42 @@ h2{
         max-width: 65%;
     }
 }
+
+/* ==============================================================
+                INDEX CONTENT
+============================================================== */
+
+.history{
+	padding:20px;
+	width:100% !important;
+	background-color:#ff3300 !important;
+	color:black;
+	font-weight:bold
+}
+
+.history p{
+	padding-top:20px;
+	color:black !important;
+	margin-bottom:3rem!important;
+}
+
+.content{margin-top:40px;}
+
+.festivals-category-blocks .card{
+	background-color:#242424;
+	color: #fff;
+	height: 100%;
+}
+
+button{
+	float:right !important;
+	margin-bottom:20px;
+}
+
+.card img{
+	position: relative !important;
+	top: 50% !important;
+	transform: translateY(-50%) !important;
+	padding:10%;
+}
+	

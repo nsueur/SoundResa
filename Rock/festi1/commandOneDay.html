@@ -16,6 +16,56 @@
         </header>
 
         <div id="content">
+			<h1>Festival Rock 1 - Pass 1 jour</h1>
+
+			<div id="formPass" class="container-fluid w-75">
+				<form action="#" method="post">
+					<div class="row">
+						<div class="col">
+							<p class="font-weight-bold">Pass 1 jour</p>
+							<p class="text-muted">Inclus, 1 ticket boisson</p>
+						</div>
+						<div class="col">
+							<p>En stock : <span style="display:inline-block;border:1px solid green;border-radius:32px;background-color:green;width:16px;height:16px;vertical-align:middle;"></span></p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<div class="form-group row">
+								<label for="lastname" class="col-sm-4 col-form-label">Nom</label>
+								<div class="col-sm-8"><input type="text" id="lastName" name="lastName" class="form-control" required /></div>
+							</div>
+							<div class="form-group row">
+								<label for="firstName" class="col-sm-4 col-form-label">Prénom</label>
+								<div class="col-sm-8"><input type="text" id="firstName" name="firstName" class="form-control" required /></div>
+							</div>
+							<div class="form-group row">
+								<label for="cardNumber" class="col-sm-4 col-form-label">N° Carte</label>
+								<div class="col-sm-8"><input type="text" id="cardNumber" name="cardNumber" class="form-control" required /></div>
+							</div>
+							<div class="form-group row">
+								<label for="crypto" class="col-sm-4 col-form-label">Cryptogramme</label>
+								<div class="col-sm-8"><input type="text" id="crypto" name="crypto" class="form-control" required /></div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6">
+							<div class="form-group row">
+								<label for="quantity" class="col-sm-4 col-form-label">Quantité</label>
+								<div class="col-sm-8"><input type="number" min="1" max ="100" id="quantity" name="quantity" class="form-control" required /></div>
+							</div>
+							<p><b>TVA</b> : 20%</p>
+							<p><b>Total</b> : 10.00$</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col text-right">
+							<button type="button" class="btn btn-outline-dark btn-block">Valider</button>
+						</div>
+					</div>
+				</form>
+			</div>
 
         </div> <!-- ========== END MAIN ========== -->
 

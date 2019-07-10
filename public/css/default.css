@@ -11,6 +11,25 @@ body, html { height: 100%; }
 }
 
 
+/* ==============================================================
+                HEADER
+============================================================== */
+
+header#accueil {
+    min-height: 50vh;
+    background-image: url("../img/accueil/headermobil.jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ==============================================================
+                FOOTER
+============================================================== */
+
 footer{
 	padding: 5rem 0;
 	background-color:black;
@@ -39,35 +58,28 @@ ul li a{
 h2{
 	color:white;
 }
+.paiement i{
+	color:white;
+	padding:5px;
+}
+.paiement{
+	width:70px;
+}
+.paiement p{
+	color:#ff3300;
+}
 @media (min-width:1201px){
 	.reseaux i{
-		font-size:20px;
+		font-size:30px;
 	}
 	
 	li{
 		font-size:1em;
 		height:25px;
+		text-align:left;
+		margin-left:110px;
 	}
-	
-	
-	
-	
 }
-
-/* ==============================================================
-                HEADER
-============================================================== */
-
-header#accueil {
-    min-height: 50vh;
-    background-image: url("../img/accueil/headermobil.jpg");
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 /* ==============================================================
                 GRID TICKETS COMMAND
@@ -83,4 +95,3 @@ header#accueil {
         max-width: 65%;
     }
 }
-

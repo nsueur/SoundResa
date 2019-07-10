@@ -61,19 +61,29 @@ h2{
 .paiement i{
 	color:white;
 	padding:5px;
+	font-size:30px;
+	text-align:center;
 }
 .paiement{
-	width:70px;
+	margin-bottom:20px;
+	margin-top:20px;
+	color:white;
 }
-.paiement p{
-	color:#ff3300;
+.paiement table td{
+	padding:0.8em;
 }
+
+.paiement tr:nth-child(2){
+	text-align:left;
+	vertical-align:middle;
+}
+
 @media (min-width:1201px){
 	.reseaux i{
 		font-size:30px;
 	}
 	
-	li{
+	.list-unstyled > li{
 		font-size:1em;
 		height:25px;
 		text-align:left;

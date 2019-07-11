@@ -27,6 +27,7 @@ header#accueil {
 
 header .dropdown-menu {
 	background-color: #343a40;
+	border: none;
 }
 
 header .dropdown-menu a {

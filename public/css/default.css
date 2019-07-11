@@ -74,11 +74,14 @@ footer{
 	bottom:0px;
 	
 }
+.navigation{
+	margin-top:50px;
+}
 .list-unstyled li{
 	height:50px;
 	font-size:2em;
 }
-ul li a{
+footer ul li a{
 	color:#ff3300;
 }
 .reseaux i{
@@ -87,7 +90,11 @@ ul li a{
 	margin:5px;
 	
 }
-h2{
+.reseaux{
+	margin-top:50px;
+}
+
+footer h2{
 	color:white;
 }
 .paiement i{
@@ -98,7 +105,7 @@ h2{
 }
 .paiement{
 	margin-bottom:20px;
-	margin-top:20px;
+	margin-top:50px;
 	color:white;
 }
 .paiement table td{
@@ -120,6 +127,10 @@ h2{
 		height:25px;
 		text-align:left;
 		margin-left:110px;
+	}
+	
+	.reseaux{
+		margin-top:200px;
 	}
 }
 
@@ -174,5 +185,10 @@ button{
 	top: 50% !important;
 	transform: translateY(-50%) !important;
 	padding:10%;
+}
+
+
+#content img{
+	width:100%;
 }
 	

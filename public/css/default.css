@@ -152,11 +152,9 @@ footer h2{
 /* ==============================================================
                 INDEX CONTENT
 ============================================================== */
-
 .history{
 	padding:20px;
 	width:100% !important;
-	background-color:#ff3300 !important;
 	color:black;
 	font-weight:bold
 }
@@ -166,13 +164,17 @@ footer h2{
 	color:black !important;
 	margin-bottom:3rem!important;
 }
-
+	
 .content{margin-top:40px;}
 
-.festivals-category-blocks .card{
+.content-card{
 	background-color:#242424;
-	color: #fff;
-	height: 100%;
+	color:white;
+}
+
+.img-content{
+	width:90%;
+	margin:5% auto;
 }
 
 button{
@@ -180,15 +182,21 @@ button{
 	margin-bottom:20px;
 }
 
+
+	
+@media (min-width: 768px) { 
+
 .card img{
 	position: relative !important;
 	top: 50% !important;
-	transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
 	padding:10%;
 }
 
-
-#content img{
-	width:100%;
+.card-group .content-card{display:none ;}
 }
-	
+
+@media (max-width: 767px){
+	.content .content-card{display:none;}
+}
+

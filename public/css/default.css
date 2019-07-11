@@ -200,3 +200,43 @@ button{
 	.content .content-card{display:none;}
 }
 
+
+/* ==============================================================
+                PAGE FESTIVAL ROCK
+============================================================== */
+#pass1{
+	margin-top:15px;
+}
+
+#pass2{
+	margin-top:15px;
+}
+
+#pass3{
+	margin-top:15px;
+}
+
+.img-custom{
+	max-width:100%;
+	margin-bottom:25px;
+}
+
+.text-custom{
+	text-align:center;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+@media (min-width:641px){
+	#accordionExample .card{
+		width:66%;
+	}
+	
+	iframe{
+		height:380px;
+	}
+	
+	.img-custom{
+		width:66%;
+	}
+}

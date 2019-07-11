@@ -21,9 +21,18 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <a class="navbar-brand" href="#">Sound Resa</a>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="Rock/rockFestivals.html">Rock</a>
-                        </li>
+                        <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							  Rock
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="Rock/rockFestivals.html">Les festivals Rock</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Rock/festi1/pagePass.html">Festival 1</a>
+								<a class="dropdown-item" href="Rock/festi2/pagePass.html">Festival 2</a>
+								<a class="dropdown-item" href="Rock/festi3/pagePass.html">Festival 3</a>
+							</div>
+						</li>
                         <li class="nav-item">
                             <a class="nav-link" href="Metal/metalFestivals.html">Metal</a>
                         </li>
@@ -34,7 +43,8 @@
                             <a class="nav-link" href="Classic/classicFestivals.html">Classique</a>
                         </li>
                     </ul>
-                </div>
+				</div>
+				<button type="button" class="btn btn-dark btn-lg"><i class="fa fa-shopping-cart"></i></button>
             </nav>
 
             <div class="flex-row mt-5 pb-2 align-items-center">
@@ -53,7 +63,10 @@
         </header>        
 		<!-- HEADER END -->
 		
-		<div class="history mb-3">
+		<!-- -_-_-_-_-_-_-_-_-_-_-_-_-_-_debut de ma partie-_-_-_-_-_-_-_-_-_-_-_-_-_-_			 -->
+	
+		
+		<div class="history bg-light">
 			<div class="histoire">
 				<h3>NOTRE HISTOIRE</h3>
 				<p>Crée en 1995 <em>Sound Resa</em> est devenu au fil des années le leader nationalde dans son domaine.
@@ -66,90 +79,161 @@
 				votre sélection des <em>festivals de musique</em> </p>
 			</div>
 		</div>
+		
+<!-- -_-_-_-_-_-_-_-_-_-_-_-_-_-_content version pc-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_		 -->
 
-        <div id="content">
-			<div class="row container-fluid mx-auto festivals-category-blocks">
-				<div class="col-12 col-md-6 mb-3">
-					<div class="card mb-3">
-						<div class="row">
-							<div class="col-4 col-md-12 text-center">
-								<img class="img-fluid" src="public/img/accueil/reggae.jpg" class="card-img" alt="photo drapeau Jamaïque incription reggae au centre">
-							</div>
-							<div class="col-8 mx-auto">
-								<div class="card-body">
-									<h5 class="card-title">REGGAE</h5>
-									<p class="card-text">L'été est là et la saison des festivals vient tout juste de commencer. 
-									Comme chaque année, <em>FestochPlace</em> vous propose sa sélection de <em>festivals</em> dans lesquels vous pourrez
-									apprécier reggae, dub, dancehall, ska et rocksteady.</p>
-									<p class="card-text"><small class="text-muted">pour découvrir les meilleures festivals selectionner "en savoir +"</small></p>
-									<a href="./Reggae/reggaeFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
-								</div>
-							</div>
-						</div>
+	<div class="container content">
+		
+		<div class="card mb-3 content-card">
+			<div class="row no-gutters">
+				<div class="col-4">
+					<img class="img-fluid" src="./public/img/accueil/reggae.jpg" class="card-img" alt="photo drapeau Jamaïque incription reggae au centre">
+				</div>
+				<div class="col-8">
+					<div class="card-body">
+						<h5 class="card-title">reggae</h5>
+						<p class="card-text">L'été est là et la saison des <em>festivals</em> vient tout juste de commencer. 
+						Comme chaque année, <em>Sound 
+						resa</em> vous propose sa sélection de <em>festivals</em> dans lesquels vous pourrez
+						apprécier reggae, dub, dancehall, ska et rocksteady.</p>
+						<p class="card-text"><small class="text-muted">pour découvrir les meilleures <em>festivals</em> selectionner "en savoir +"</small></p>
+					    <a href="./Reggae/reggaeFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
 					</div>
 				</div>
-			
-				<div class="col-12 col-md-6 mb-3">
-					<div class="card mb-3">
-						<div class="row">
-							<div class="col-4 col-md-12 text-center">
-								<img class="img-fluid"src="public/img/accueil/rock.jpg" class="card-img" alt="photo pochette d'album avec guitariste">
-							</div>
-							<div class="col-8 mx-auto">
-								<div class="card-body">
-								<h5 class="card-title">ROCK</h5>
-								<p class="card-text">Le rock a été l'une des forces primaires de la musique populaire depuis ses débuts 
-													dans les années 50. le rock continue d'être l'un des 
-													piliers de la musique live, y compris en festival<p>
-								<p class="card-text"><small class="text-muted">pour découvrir les meilleures festivals selectionner "en savoir +"</small></p>
-								<a href="./Rock/rockFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			
-				<div class="col-12 col-md-6 mb-3">
-					<div class="card mb-3">
-						<div class="row">
-							<div class="col-4 col-md-12 text-center">
-								<img class="img-fluid"src="public/img/accueil/metal.jpg" class="card-img" alt="image main levé faisant le salut métalleux">
-							</div>
-							<div class="col-8 mx-auto">
-								<div class="card-body">
-								<h5 class="card-title">METAL</h5>
-								<p class="card-text">Il y a maintenant tant de festivals de métal légendaires
-													Les favoris de Sound Resa dans le métal sont le Hellfest, le Blockstock Open Air et le Rock 
-													Fest, où vous pourrez voir des artistes comme Metallica, Rammstein, Judas Priest.</p>
-								<p class="card-text"><small class="text-muted">pour découvrir les meilleures festivals selectionner "en savoir +"</small></p>
-								<a href="./Metal/metalFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>	
-			
-				<div class="col-12 col-md-6 mb-3">
-					<div class="card mb-3">
-						<div class="row">
-							<div class="col-4 col-md-12 text-center">
-								<img class="img-fluid"src="public/img/accueil/classique.jpg" class="card-img" alt="photo de l auditorium avec musiciens en représentation">
-							</div>
-							<div class="col-8 mx-auto">
-								<div class="card-body">
-								<h5 class="card-title">CLASSIQUE</h5>
-								<p class="card-text">Retrouver dans cette section notre selection de tout les festivals de musique classique,
-														amis de classique faites le pleins d’énergie pour donner le LA d’une année de festivals  riche en concerts,
-														en rencontres et en émotions. </p>
-								<p class="card-text"><small class="text-muted">pour découvrir les meilleures festivals selectionner "en savoir +"</small></p>
-								<a href="./Classique/classiqueFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
 			</div>
+		</div>
+
+
+
+
+		<div class="card mb-3 content-card">
+		  <div class="row no-gutters">
+			<div class="col-4">
+			  <img class="img-fluid"src="./public/img/accueil/rock.jpg" class="card-img" alt="photo pochette d'album avec guitariste">
+			</div>
+			<div class="col-8">
+			  <div class="card-body">
+				<h5 class="card-title">ROCK</h5>
+				<p class="card-text">Le <em>rock</em> a été l'une des forces primaires de la musique populaire depuis ses débuts 
+									dans les années 50. le <em>rock</em> continue d'être l'un des 
+									piliers de la <em>musique</em> live, y compris en </em>festival</em><p>
+				<p class="card-text"><small class="text-muted">pour découvrir les meilleures <em>festivals</em> selectionner "en savoir +"</small></p>
+				<a href="./Rock/rockFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+
+
+
+
+		<div class="card mb-3 content-card">
+		  <div class="row no-gutters">
+			<div class="col-4">
+			  <img class="img-fluid"src="./public/img/accueil/metal.jpg" class="card-img" alt="image main levé faisant le salut métalleux">
+			</div>
+			<div class="col-8">
+			  <div class="card-body">
+				<h5 class="card-title">METAL</h5>
+				<p class="card-text">Il y a maintenant tant de <em>festivals</em> de <em>métal</em> légendaires
+									Les favoris de <em>Sound Resa</em> dans le <em>métal</em> sont le Hellfest, le Blockstock Open Air et le Rock 
+									Fest, où vous pourrez voir des artistes comme Metallica, Rammstein, Judas Priest.</p>
+				<p class="card-text"><small class="text-muted">pour découvrir les meilleures <em>festivals</em> selectionner "en savoir +"</small></p>
+				<a href="./Metal/metalFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+
+
+	
+
+		<div class="card mb-3 content-card">
+		  <div class="row no-gutters">
+			<div class="col-4" >
+			  <img class="img-fluid"src="./public/img/accueil/classique.jpg" class="card-img" alt="photo de l auditorium avec musiciens en représentation">
+			</div>
+			<div class="col-8">
+			  <div class="card-body">
+				<h5 class="card-title">CLASSIQUE</h5>
+				<p class="card-text">Retrouver dans cette section notre selection de tout les festivals de musique classique,
+									   amis de classique faites le pleins d’énergie pour donner le LA d’une année de festivals  riche en concerts,
+									   en rencontres et en émotions. </p>
+				<p class="card-text"><small class="text-muted">pour découvrir les meilleures festivals selectionner "en savoir +"</small></p>
+				<a href="./Classique/classiqueFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+					
+	</div>
+<!-- -_-__-_-_-__-_--_-_-_-_-_-_fin de la version pc_--___-_--__-_-_--__--_-_			 -->
+
+
+<!-- -_-_-__-_-_--_-_-_debut version mobile_-_-_-_-_-_-_-_-_-_-_-_-__-_-_-_-_-_-_-_-_-_-_-_-__-_-_--_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-__-_-_-_-_-_-_-_-_-_ -->
+
+<div class="container card-group">
+	<div class="row">
+
+		<div class="mb-3 col-md-5 card content-card">
+			<img class="card-img-top img-content" src="./public/img/accueil/reggae.jpg" alt="photo drapeau Jamaïque incription reggae au centre">
+			<div class="card-body">
+				<h5 class="mb-3 card-title">REGGAE</h5>
+				<p class="card-text">L'été est là et la saison des festivals vient tout juste de commencer. 
+						Comme chaque année, <em>FestochPlace</em> vous propose sa sélection de <em>festivals</em> dans lesquels vous pourrez
+						apprécier reggae, dub, dancehall, ska et rocksteady.</p>
+				<p class="card-text"><small class="text-muted">pour découvrir les meilleures festivals selectionner "en savoir +"</small></p>
+				<a href="./Rock/rockFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
+			</div>
+		</div>
+ 
+		<div class="mb-3 col-md-5 card content-card">
+			<img class="card-img-top img-content" src="./public/img/accueil/rock.jpg"alt="photo pochette d'album avec guitariste">
+			<div class="card-body">
+				<h5 class="card-title">ROCK</h5>
+				<p class="card-text">Le rock a été l'une des forces primaires de la musique populaire depuis ses débuts 
+									dans les années 50. le rock continue d'être l'un des 
+									piliers de la musique live, y compris en festival</p>
+				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				<a href="./Rock/rockFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
+			</div>
+		</div>
+		
+		
+		
+  
+  
+		<div class="mb-3 col-md-5 card content-card">
+			<img class="card-img-top img-content" src="./public/img/accueil/metal.jpg" alt="image main levé faisant le salut métalleux">
+			<div class="card-body">
+				<h5 class="card-title">METAL</h5>
+				<p class="card-text">Il y a maintenant tant de festivals de métal légendaires
+									Les favoris de Sound Resa dans le métal sont le Hellfest, le Blockstock Open Air et le Rock 
+									Fest, où vous pourrez voir des artistes comme Metallica, Rammstein, Judas Priest.</p>
+				<p class="card-text"><small class="text-muted">pour découvrir les meilleures festivals selectionner "en savoir +"</small></p>
+				<a href="./Metal/metalFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
+			</div>
+		</div>
+  
+		<div class="mb-3 col-md-5 card content-card">
+			<img class="card-img-top img-content" src="./public/img/accueil/classique.jpg" alt="photo de l auditorium avec musiciens en représentation">
+			<div class="card-body">
+				<h5 class="card-title">CLASSIQUE</h5>
+				<p class="card-text">retrouver dans cette section notre selection de tout les festivals de musique classique,
+									   amis de classique faites le pleins d’énergie pour donner le LA d’une année de festivals  riche en concerts,
+									   en rencontres et en émotions. </p>
+				<p class="card-text"><small class="text-muted">pour découvrir les meilleures festivals selectionner "en savoir +"</small></p>
+				<a href="./Classique/classiqueFestivals.html"><button type="button" class="btn btn-success">en savoir +</button></a>
+			</div>
+		</div>
+	</div> 
+</div>
+
+
+
+<!-- -_--___-_-_fin de la partie mobile fin du content page acceuil-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ -->
 
         </div> <!-- ========== END MAIN ========== -->
 
@@ -159,7 +243,7 @@
 			
 				<div class="row">
 					
-					 <div class="col-12 col-md-4 col-lg-4 text-center">
+					 <div class="col-12 col-md-4 col-lg-4 text-center navigation">
 						<h2 class="text-uppercase text-center">Les Festivals</h2>
 							<nav class='pager-nav text-center'>
 								<ul class="list-unstyled">
@@ -197,9 +281,8 @@
 							</tr>
 						</table>
 					</div>
-					
-					<div class="col-12 col-md-4 col-lg-4 reseaux text-center">
-						<h2 class="text-uppercase text-center"> Réseaux sociaux</h2>
+
+					<div class="col-12 col-md-4 col-lg-4 reseaux text-center reseaux">
 							<a href="https://twitter.com/login?lang=fr" target='blank' class="mx-2">
 								<i class="fa fa-twitter" aria-hidden="true"></i>
 							</a>

@@ -25,6 +25,19 @@ header#accueil {
     background-size: cover;
 }
 
+header .dropdown-menu {
+	background-color: #343a40;
+}
+
+header .dropdown-menu a {
+	color: White;
+}
+
+header .dropdown-menu .dropdown-divider {
+	border-top: 1px solid #525151;
+}
+
+
 /* Small devices (landscape phones, 576px and up)              */
 @media (min-width: 576px) { 
 	header#accueil { min-height: 40vh; }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../public/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../public/css/default.css" />
+		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <title>Festivals Rock</title>
+    </head>
+
+    <body>
+
+        <div id="content">
+
+            <div id="productCommandBlock">
+
+                <div class="card mb-3 container-fluid">
+                    <h1 class="card-title">Title</h1>
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="../public/img/na-icon.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-text row">
+                                    <div class="col"><i class="fa fa-cutlery" style="font-size:36px"></i></div>
+                                    <div class="col"><i class="fa fa-wifi"  style="font-size:36px"></i></div>
+                                    <div class="col"><i class="fa fa-shower" style="font-size:36px"></i></div>
+                                    <div class="col"><i class="fa fa-battery-full" style="font-size:36px"></i></div>
+                                    <div class="col"><i class="fa fa-video-camera" style="font-size:36px"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="container-fluid">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <select class="custom-select custom-select-lg mb-3">
+                                <option selected>Emplacement</option>
+                                <option value="place-pitfall">Fosse - 15.00$</option>
+                                <option value="place-free">Place libre debout - 19.00$</option>
+                                <option value="place-sit-down">Place numérotée assise - 25.00$</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <select class="custom-select custom-select-lg mb-3">
+                                <option selected>Tickets Boisson</option>
+                                <option value="two-drink">2 Boissons au choix - 5.00$</option>
+                                <option value="five-drink">5 Boissons au choix - 12.00$</option>
+                                <option value="ten-drink">10 Boissons au choix - 20.00$</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <select class="custom-select custom-select-lg mb-3">
+                                <option selected>Pack Goodies</option>
+                                <option value="with-camping">Avec goodies - 15.00$</option>
+                                <option value="no-camping">Sans goodies</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6 text-right">
+                            <div class="row">
+                                <label for="quantity" class="col-8 col-form-label col-form-label-lg">Quantité</label>
+                                <div class="col-4">
+                                    <input id="quantity" class="form-control form-control-lg" name="quantity" type="number" min="1" max="100" value="1" required />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6 text-right" style="font-size:1.5rem;">
+                            TOTAL : 0.00$
+                        </div>
+                        <div class="form-group col-md-6">
+                            <button type="submit" class="btn btn-primary">Valider la commande</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+        </div> <!-- ========== END MAIN ========== -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="../public/js/bootstrap.min.js"></script>
+    </body>
+</html>

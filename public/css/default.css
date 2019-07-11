@@ -203,7 +203,7 @@ button{
 
 
 /* ==============================================================
-                PAGE FESTIVAL ROCK
+                PAGE FESTIVAL
 ============================================================== */
 #pass1{
 	margin-top:15px;
@@ -226,6 +226,10 @@ button{
 	text-align:center;
 	font-size:1.5em;
 	font-weight:bold;
+}
+
+.card-custom{
+	margin-bottom:15px;
 }
 
 @media (min-width:641px){

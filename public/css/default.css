@@ -15,6 +15,14 @@ body, html { height: 100%; }
                 HEADER
 ============================================================== */
 
+header .navbar{
+	background-color: black!important;
+}
+
+header .navbar-collapse > a:nth-child(1){
+	color: #ff3300!important;
+}
+
 header#accueil {
     min-height: 30vh;
     background-image: url("../img/accueil/headermobil.jpg");

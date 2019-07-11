@@ -16,7 +16,7 @@ body, html { height: 100%; }
 ============================================================== */
 
 header#accueil {
-    min-height: 30vh;
+    min-height: 50vh;
     background-image: url("../img/accueil/headermobil.jpg");
 
     /* Center and scale the image nicely */
@@ -25,38 +25,6 @@ header#accueil {
     background-size: cover;
 }
 
-header .dropdown-menu {
-	background-color: #343a40;
-}
-
-header .dropdown-menu a {
-	color: White;
-}
-
-header .dropdown-menu .dropdown-divider {
-	border-top: 1px solid #525151;
-}
-
-
-/* Small devices (landscape phones, 576px and up)              */
-@media (min-width: 576px) { 
-	header#accueil { min-height: 40vh; }
-}
-
-/* Medium devices (tablets, 768px and up)                      */
-@media (min-width: 768px) { 
-	header#accueil { min-height: 55vh; }
-}
-
-/* Large devices (desktops, 992px and up)                      */
-@media (min-width: 992px) { 
-	header#accueil { min-height: 60vh; }
-}
-
-/* Extra large devices (large desktops, 1200px and up)         */
-@media (min-width: 1200px) { 
-	header#accueil { min-height: 75vh; }
-}
 
 /* ==============================================================
                 FOOTER
@@ -130,7 +98,7 @@ footer h2{
 	}
 	
 	.reseaux{
-		margin-top:200px;
+		margin-top:150px;
 	}
 }
 

@@ -1,6 +1,6 @@
 # Sound Resa
 
-Front-end de site de ecommerce de vente de billet pour festivals et concerts.
+Front-end de site e-commerce de vente de billets pour festivals et concerts.
 
 ## Credit
 

@@ -156,21 +156,12 @@ footer h2{
     }
 }
 
-/* ==============================================================
-                INDEX CONTENT
-============================================================== */
-.history{
+.history, .history-mobile{
 	padding:20px;
-	width:100% !important;
-	color:black;
-	font-weight:bold
+	color:black;	
 }
 
-.history p{
-	padding-top:20px;
-	color:black !important;
-	margin-bottom:3rem!important;
-}
+.history p{color:black !important;}
 	
 .content{margin-top:40px;}
 
@@ -200,13 +191,12 @@ button{
 	padding:10%;
 }
 
-.card-group .content-card{display:none ;}
+.history-mobile, .card-group .content-card{display:none ;}
 }
 
 @media (max-width: 767px){
-	.content .content-card{display:none;}
+.history, .content .content-card{display:none;}
 }
-
 
 /* ==============================================================
                 PAGE FESTIVAL
